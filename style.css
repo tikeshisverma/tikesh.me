@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #CFFF00;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: blue;
+}
+
+.intro {
+  flex-direction: column;
+  height: 15rem;
+  display: flex;
+  background-color: pink
+}
+
+.detail {
+  flex-direction: row;
+  height: 5rem;
+  width: 15rem;
+  display: flex;
+  background-color: green
+}
+
